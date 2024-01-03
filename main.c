@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+int Additionprogram(int a,int b);
+int Subtractionprogram(int a,int b);
+int Multiplicationprogram(int a,int b);
+int Divisionprogram(int a,int b);
+int Modulusprogram(int a,int b);
+int Incrementprogram(int a);
+int Decrementprogram(int b);
+int AssignmentDemoOperators(int a,int b);
+int ComparisonDemoOperators(int a,int b);
+int LogicalDemoOperators();
 int main()
 {
    Additionprogram(getA(),getB());
